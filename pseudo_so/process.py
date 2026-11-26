@@ -19,7 +19,7 @@ class Process:
     # dados do processes.txt
     pid: int # igual o número da linha no processes.txt
     start_time: int
-    priority: int
+    priority: int # 0 a 3
     cpu_time: int
     max_frames: int
     printer: bool
